@@ -14,7 +14,10 @@ useHead({
 </script>
 
 <template>
-  <h2>SSR Example for META</h2>
+  <div class="d-flex gap-8 align-items-center">
+    <NuxtLink to="/"> &#8592; </NuxtLink>
+    <h2>SSR Example for META</h2>
+  </div>
 
   <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px">
     <NuxtLink
